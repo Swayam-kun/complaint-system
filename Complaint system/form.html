@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complaint Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>Student Panel</h2>
+    <button onclick="goToForm()">File Complaint</button>
+    <button onclick="goToStatus()">View Complaints</button>
+</div>
+
+<div class="main">
+    <div class="card">
+        <h2>Submit Complaint</h2>
+
+        <input type="text" id="title" placeholder="Complaint Title">
+        <textarea id="desc" placeholder="Describe issue"></textarea>
+
+        <button class="submit" onclick="submitComplaint()">Submit</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
